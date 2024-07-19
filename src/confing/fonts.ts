@@ -1,0 +1,1 @@
+import {Inter, Marcellus, Open_Sans} from "next/font/google";export const fontInter = Inter({    subsets: ["latin"]});export const fontOpenSans = Open_Sans({    subsets: ["latin"],    display: "swap"});export const fontMarcellus = Marcellus({    subsets: ["latin"],    weight: "400",    display: "swap"});
