@@ -1,0 +1,1 @@
+export const settings = {    copyright: `© ${new Date().getFullYear()} WineShop. All rights reserved.`}
