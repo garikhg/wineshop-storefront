@@ -1,4 +1,5 @@
 import type {Config} from "tailwindcss"
+import {fontMarcellus} from "@/confing/fonts";
 
 const config = {
     darkMode: ["class"],
@@ -18,6 +19,10 @@ const config = {
             },
         },
         extend: {
+            fontFamily: {
+                "open-sans": ['var(--font-open-sans)', 'sans-serif'],
+                "marcellus": ['var(--font-marcellus)', 'serif']
+            },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
@@ -72,7 +77,9 @@ const config = {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
             },
-
+            backgroundColor: {
+                "footer": "var(--color-grayish-green)",
+            }
         },
     },
     plugins: [require("tailwindcss-animate")],

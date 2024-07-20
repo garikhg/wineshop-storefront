@@ -1,0 +1,1 @@
+import React from 'react';import {Container} from "@/components";const AboutUs = () => {    return (        <div>            <Container className="py-14">                About Us Page            </Container>        </div>    );};export default AboutUs;
