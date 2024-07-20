@@ -58,6 +58,10 @@ const config = {
                     DEFAULT: "hsl(var(--card))",
                     foreground: "hsl(var(--card-foreground))",
                 },
+                brown: {
+                    DEFAULT: "hsl(var(--brown))",
+                    foreground: "hsl(var(--brown))",
+                }
             },
             borderRadius: {
                 lg: "var(--radius)",
@@ -79,7 +83,8 @@ const config = {
                 "accordion-up": "accordion-up 0.2s ease-out",
             },
             backgroundColor: {
-                "footer": "var(--color-grayish-green)",
+                "footer": "hsl(var(--light-green))",
+                "light-green": "hsl(var(--light-green))",
             },
             backgroundImage: {
                 "footer": "url('/images/footer-bg-preview.png')"

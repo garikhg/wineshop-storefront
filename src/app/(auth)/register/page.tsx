@@ -1,0 +1,1 @@
+import React from 'react';const Register = () => {    return (        <div>            Crate A new Account        </div>    );};export default Register;

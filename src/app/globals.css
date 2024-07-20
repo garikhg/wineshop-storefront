@@ -34,6 +34,8 @@
 
         /* Colors */
         --color-grayish-green: rgb(242, 245, 241); /* #F2F5F1 */
+        --light-green: 105 16.67% 95.29%; /* #F2F5F1 */
+        --brown: 32.46 32.62% 63.33%; /* #c0a483 */
     }
 
     .dark {
@@ -61,6 +63,11 @@
         --chart-3: 30 80% 55%;
         --chart-4: 280 65% 60%;
         --chart-5: 340 75% 55%;
+
+        /* Colors */
+        --color-grayish-green: rgb(242, 245, 241); /* #F2F5F1 */
+        --light-green: 105 16.67% 95.29%; /* #F2F5F1 */
+        --brown: 32.46 32.62% 63.33%; /* #c0a483 */
     }
 }
 
