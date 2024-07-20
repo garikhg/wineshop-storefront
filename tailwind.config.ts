@@ -21,7 +21,8 @@ const config = {
         extend: {
             fontFamily: {
                 "open-sans": ['var(--font-open-sans)', 'sans-serif'],
-                "marcellus": ['var(--font-marcellus)', 'serif']
+                "marcellus": ['var(--font-marcellus)', 'serif'],
+                "heading": ['var(--font-marcellus)', 'serif']
             },
             colors: {
                 border: "hsl(var(--border))",
@@ -79,6 +80,9 @@ const config = {
             },
             backgroundColor: {
                 "footer": "var(--color-grayish-green)",
+            },
+            backgroundImage: {
+                "footer": "url('/images/footer-bg-preview.png')"
             }
         },
     },

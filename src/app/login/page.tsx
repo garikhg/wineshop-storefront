@@ -1,1 +1,1 @@
-import React from 'react';const Login = () => {    return (        <div>            Login Page        </div>    );};export default Login;
+import React from 'react';import {Container} from "@/components";const Login = () => {    return (        <Container className="py-14" size="small">            Login Page        </Container>    );};export default Login;
