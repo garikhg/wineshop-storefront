@@ -21,8 +21,8 @@ import * as SELECTORS from "../confing/selectors"
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
 
     const pathname = usePathname();
-    const showHeader = !(pathname === '/sign-in' || pathname === '/lost-password');
-    const showFooter = !(pathname === '/sign-in' || pathname === '/lost-password');
+    const showHeader = !(pathname === '/sign-in' || pathname === '/register' || pathname === '/lost-password');
+    const showFooter = !(pathname === '/sign-in' || pathname === '/register' || pathname === '/lost-password');
 
     return (
         <html lang="en" data-lt-installed={true}>
