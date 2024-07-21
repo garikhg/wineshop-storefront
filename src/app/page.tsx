@@ -1,4 +1,3 @@
-import AnimatedComponent from "@/components/AnimatedComponent";
 import {HeroSlider} from "@/components";
 
 export default function Home() {
