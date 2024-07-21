@@ -11,7 +11,8 @@ import {fontMarcellus, fontOpenSans} from "@/confing/fonts";
 import {Footer, Header} from "@/components";
 import {usePathname} from "next/navigation";
 
-import * as SELECTORS from "../confing/selectors"
+import * as SELECTORS from "../confing/selectors";
+import NextTopLoader from "nextjs-toploader";
 
 // export const metadata: Metadata = {
 //     title: "Wine Shop",
@@ -31,6 +32,8 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
             fontOpenSans.variable, fontMarcellus.variable
         )}>
         <div className="min-h-screen flex flex-col">
+            <NextTopLoader height={2}/>
+
             {showHeader && (<Header/>)}
             <main id={SELECTORS.MAIN_CONTENT_ID} role="main">
                 {children}
